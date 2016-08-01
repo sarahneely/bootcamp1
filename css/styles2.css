@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #eee7d5;
+	color: #333;
+	margin: 0 auto;
+}
+.container {
+
+}
+.float {
+	float: left;
+}
+.masthead {
+
+}
+.header {
+	height: 315px;
+	overflow: hidden;
+	background-color: #eee7d5;
+	text-align: center;
+
+}
+nav {
+	background-color: #0b3e5a;
+	height: 55px;
+	border-top: 1px solid #092c40;
+	border-bottom: 1px solid #092c40;
+	font-family: 'Sanchez', serif;
+
+}
+.nav_both {
+	margin: 0 auto;
+
+}
+.nav_left {
+	height: 55px;
+	padding-left: 40px;
+	color: #fff;
+	font-family: 'yellowtail', cursive;
+	width: 60%;
+}
+h1 {
+	margin:0px;
+	font-size: 40px;
+}
+.nav_right {
+	font-size: 15;
+	color: #fff;
+	width: 40%;
+}
+.nav_right ul li {
+	float: left;
+	padding-right: 40px;
+	color: #fff;
+	list-style: none;
+}
+.nav_right ul li a:hover {
+	color:#ff5840;
+}
+.nav_right ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.nav_dropdown {
+	position: absolute;
+	list-style: none;
+	display:none;
+	width: 200px;
+	opacity: 40%;
+	background-color: #0b3e5a;
+	color: #fff;
+	font-size: 12;
+	font-family: 'Sanchez', serif;
+}
+.nav_right li:hover > .nav_dropdown{
+	display: list-item;
+}
+.nav_dropdown ul li {
+	padding:5px;
+}
+.content {
+	height: 350px;
+	width: 100%;
+	background-color: #00ffd0;
+}
+h2 {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'yellowtail', cursive;
+	font-size: 50px;
+	color: #CC141F;
+}
+.images {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 250px;
+	width: auto;
+
+}
+.images img {
+	margin: 15px;
+	float: left;
+	justify-content: space-around;
+	border: 3px solid white;
+}
+.footer {
+	margin-top: 15px;
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	background-color: #3d7899;
+}
+.footer_nav ul li{
+	float: left;
+	margin: 110px;
+	font-size: 25px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Sanchez', serif;
+	color: #fff;
+}
+.footer_nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer_nav ul li a:hover {
+	color: #ff5840;
+}

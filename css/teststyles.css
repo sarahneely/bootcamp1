@@ -1,0 +1,27 @@
+.container {
+	width: 100%;
+	background-color: grey;
+
+
+}
+.masthead {
+	width: auto;
+}
+.header1 {
+	position: relative;
+	width: auto;
+	height: 50px;
+	background-color: #100431;
+
+}
+ul li {
+	position: relative;
+	right: 0px;
+	float: left;
+}
+.header2 {
+
+}
+.header3 {
+
+}

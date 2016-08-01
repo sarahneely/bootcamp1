@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #eee7d5;
+	color: #333;
+	margin: 0 auto;
+}
+.container {
+
+}
+.float {
+	float: left;
+}
+.masthead {
+
+}
+.header {
+	height: 315px;
+	overflow: hidden;
+	background-color: #eee7d5;
+	text-align: center;
+
+}
+nav {
+	background-color: #0b3e5a;
+	height: 55px;
+	border-top: 1px solid #092c40;
+	border-bottom: 1px solid #092c40;
+	font-family: 'Sanchez', serif;
+
+}
+.nav_both {
+	margin: 0 auto;
+
+}
+.nav_left {
+	height: 55px;
+	padding-left: 40px;
+	color: #fff;
+	font-family: 'yellowtail', cursive;
+	width: 60%;
+}
+h1 {
+	margin:0px;
+	font-size: 40px;
+}
+.nav_right {
+	font-size: 15;
+	color: #fff;
+	width: 40%;
+}
+.nav_right ul li {
+	float: left;
+	padding-right: 40px;
+	color: #fff;
+	list-style: none;
+}
+.nav_right ul li a:hover {
+	color:#ff5840;
+}
+.nav_right ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.nav_dropdown {
+	position: absolute;
+	list-style: none;
+	display:none;
+	width: 200px;
+	opacity: 40%;
+	background-color: #0b3e5a;
+	color: #fff;
+	font-size: 12;
+	font-family: 'Sanchez', serif;
+}
+.nav_right li:hover > .nav_dropdown{
+	display: list-item;
+}
+.nav_dropdown ul li {
+	padding:5px;
+}
+.content {
+	height: 500px;
+	width: 100%;
+	background-color: #00ffd0;
+}
+.lees_air {
+	width: 100%;
+	height: 300px;
+	border: 3px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.lees_air_box {
+	height: 300px;
+	width: 60%;
+	color: #0b3e5a;
+	border: none;
+	float: left;
+	padding-right: 5px;
+}
+.lees_air h2 {
+	font-size: 48px;
+	font-family: 'yellowtail', cursive;
+	text-align: center;
+}
+.lees_air br {
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Sanchez', serif;
+	width: 100%;
+
+}
+.lees_airimg {
+	position: relative;
+	float: left;
+	width: 38%;
+	margin:10px;
+
+}
+.lees_air img {
+	border: 2px solid white;
+}
+.lees_plumbing {
+
+}
+.lees_commercial {
+
+}
+.lees_info {
+
+}
+.footer {
+	height: 200px;
+	width: 100%;
+	background-color: #3d7899;
+}
+.footer_nav ul li{
+	float: left;
+	margin: 110px;
+	font-size: 25px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Sanchez', serif;
+	color: #fff;
+}
+.footer_nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer_nav ul li a:hover {
+	color: #ff5840;
+}
